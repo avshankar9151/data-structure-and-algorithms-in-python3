@@ -18,3 +18,18 @@ def sliding_window(arr, k):
         max_sum = max(max_sum, window_sum)
     
     return max_sum
+
+def shrinking_window():
+    """
+    Examples: 
+        - Water Tank Problem
+        - Longest Substring Without Repeating Characters
+    """
+    N = int(input())
+    # max/min variables
+    for r in range(N):
+        for l in range(r):
+            # Calculate current window
+            # update max/min if needed
+            pass
+    # return max/min variable

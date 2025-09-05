@@ -27,7 +27,7 @@ def shrinking_window():
     """
     N = int(input())
     # max/min variables
-    for r in range(N):
+    for r in range(1, N):
         for l in range(r):
             # Calculate current window
             # update max/min if needed
